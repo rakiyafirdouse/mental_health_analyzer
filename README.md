@@ -18,4 +18,27 @@ A simple web-based application that analyzes user text and predicts mental healt
 - **Scikit-learn** (for ML model)  
 - **HTML/CSS/JS** (frontend)  
 
-## 📂 Project Structure  
+## 📂 Project Structure
+mental_health_analyzer/
+│── models/ # Trained ML model (best_model.pkl)
+│── src/
+│ ├── app.py # Flask backend
+│ ├── templates/
+│ │ └── index.html # Frontend UI
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
+│── assets/
+│   ├── home_page.jpg
+│   ├── bipolar_pred.jpg
+│   └── normal_pred.jpg
+## 📸 Screenshots
+
+### Home Page
+![Home Page](assets/home_page.jpg)
+
+### Prediction Result - Bipolar
+![Bipolar Prediction](assets/bipolar_pred.jpg)
+
+### Prediction Result - Normal
+![Normal Prediction](assets/normal_pred.jpg)
+
